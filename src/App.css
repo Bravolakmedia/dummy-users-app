@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+/* global.css */
+
+/* Apply a turquoise blue background */
+body {
+  background-color: #40E0D0; /* Turquoise Blue */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Customize headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #004d40; /* Dark teal for contrast */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Style buttons */
+button {
+  background-color: #008080; /* Teal */
   color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #005f5f; /* Darker Teal */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Link styles */
+a {
+  color: #004d40;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
